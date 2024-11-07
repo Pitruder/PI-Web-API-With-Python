@@ -4,6 +4,7 @@ A repository to store python scripts used to extract data inside PI Data Archive
 This tool enables data extraction from a PI Web API server, specifically retrieving timestamp and value pairs for specified attributes in an AF (Asset Framework) server. It includes logging and error handling to monitor and troubleshoot connections and data retrieval.
 
 *Features*
+
 Environment-based Configuration: Reads PI Web API URL, username, password, and log level from environment variables (.env file).
 Logging: Logs application events to app.log with configurable levels, file rotation at 5MB.
 Connection Testing: Verifies server connection before data extraction.
@@ -11,6 +12,7 @@ Data Extraction: Retrieves interpolated or recorded data by specifying hostname,
 File Output: Saves extracted data to extracted_data.json in JSON format.
 
 *Requirements*
+
 requests, loguru, and python-dotenv Python packages.
 
 *Setup*
