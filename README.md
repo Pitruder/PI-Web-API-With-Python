@@ -19,11 +19,11 @@ requests, loguru, and python-dotenv Python packages.
 
 Environment Variables: Configure .env file with PI Web API connection details:
 
-PIWEBAPI_LOCAL=<PI Web API URL>
+PIWEBAPI_LOCAL= PI Web API URL
 
-PIUSERNAME_LOCAL=<Username>
+PIUSERNAME_LOCAL= Username
 
-PIPASSWORD_LOCAL=<Password>
+PIPASSWORD_LOCAL= Password
 
 LOG_LEVEL=INFO
 
